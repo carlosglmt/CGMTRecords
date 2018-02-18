@@ -59,6 +59,7 @@ a{
 #asideFixed{
 	right: 10%;
 	position: fixed;
+	margin-left:200px;
 }
 
 
@@ -67,6 +68,7 @@ a{
 	background-color: white;
 	color:black;
 	text-align: justify;
+	margin: 10px;
 }
 
 #margenTexto{
