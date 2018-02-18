@@ -6,7 +6,7 @@
            
        
 body{
-	background: gray url("../img/LesPaul.jpg") no-repeat top fixed;
+	background: black url("../img/LesPaul.jpg") no-repeat top fixed;
 	padding-top: 80px;
     padding-bottom: 20px;
 }
