@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script><!--CDN-->
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        
+        <!--FAVICON-->
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+
+    <body>
+      
+
+      <!--HEADER-->
+
+
+      <header class="sticky">
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+
+            <!--BOTON DESPLEGABLE-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuCGMT">
+              <!--En caso de que no se tenga carga de iconos en el dispositivo-->
+              <span class="sr-only">Desplegar / Ocultar Menu</span>
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+
+            </button>
+            
+            <!--Icono que aparece al lado de GCMT Records-->
+            <a href="index.html" class="navbar-brand"><i><img src="favicon.jpg" width="30px" height="30px"></i></a>  
+
+          </div>
+
+          <!--OPCIONES DEL MENÚ-->
+          <div class="collapse navbar-collapse" id="menuCGMT">
+            <ul class="nav navbar-nav">
+              <!--Esta opción redirecciona a la página principal-->
+              <li class="active"> <a href="index.html">CGMT Guitar Records</a> </li>
+              
+              <!--Esta opcion despliega un menú para seleccionar guitarristas-->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Top 10 guitarristas- Conócelos<span class="caret"></span></a>
+
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="https://www.youtube.com/watch?v=r5sKRNYsDME"><p>Jason Becker</p></a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=JU699mIBXmI">Marty Friedman</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=ZN8chZ9THy8">Synyster Gates</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=DMIG0u21d5Q">Andy James</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=69zFCSToXzE">Jason Richardson</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=XVXWwDsbf1k">Rob Scallon</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=xOKj82YM6Yg">John Petrucci</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=tsFlR_gYXU0">Charlie Parra del Riego</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=wyoNnMO3zFk">Erock</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://www.youtube.com/watch?v=b7HzxFWYRzs">Magafi</a></li>
+                  <li class="divider"></li>
+                </ul>
+
+              </li>
+              
+              <!--Esta opción direcciona a multimedia.html-->
+              <li><a href="multimedia.html">Multimedia</a></li>
+              <!--Esta opción direcciona a historia.html-->
+              <li><a href="historia.html">Historia de la Guitarra</a></li>
+              <!--Esta opción direcciona a contacto.html-->
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul> 
+          </div>
+
+        </div>
+      </nav>    
+
+
+    </header>
+
+      
+    <section class="main container">
+      <div class="row">
+
+        <section id="fondoContacto" class="col-md-7 posts">
+          
+          <!--Etiqueta y campo de texto para que el usuario ponga su nombre-->
+          <div class="form-group" id="margenTexto">
+            <label for="nombre">Nombre: </label>
+            <input class="form-control" type="text" placeholder="Nombre">  
+          </div>
+
+          <!--Etiqueta y campo de texto para que el usuario ponga su guitarrista favorito-->
+          <div class="form-group" id="margenTexto">
+            <label for="Guitarrista favorito">Guitarrista favorito:</label>
+            <input class="form-control" type="text" placeholder="Guitarrista favorito">  
+          </div>
+
+          <!--Etiqueta y campo de texto para que el usuario ponga su Email-->
+          <div class="form-group" id="margenTexto">
+            <label for="email">Email: </label>
+            <input class="form-control" type="text" placeholder="Email">  
+          </div>
+
+          <!--Etiqueta y campo de texto para que el usuario ponga su sitio web, si es que tiene alguno-->
+          <div class="form-group" id="margenTexto">
+            <label for="Sitio web">Sitio web (opcinal): </label>
+            <input class="form-control" type="text" placeholder="Esta opción aún no está disponible" >  
+          </div>
+
+          <!--Si el usuario pertenece a una empresa asociada con CGMT Records, puede seleccionarla-->
+          <div class="form-group" id="margenTexto">
+                <label for="option">Empresa(Opcional): </label>
+                <select class="form-control" name="" id="">
+                  <option value="">Ninguna</option>
+                  <option value="">EMG</option>
+                  <option value="">Cort</option>
+                  <option value="">Gibsun</option>
+                  <option value="">Yamaha</option>
+                  <option value="">Fender</option>
+                  <option value="">Epiphone</option>
+                  <option value="">Ibañez</option>
+                </select>
+              </div> 
+
+          
+          <!--Etiqueta y campo de texto para que el usuario ponga un asunto-->
+          <div class="form-group" id="margenTexto">
+            <label for="Asunto">Asunto: </label>
+            <input class="form-control" type="text" placeholder="Asunto">  
+          </div>
+
+          <!--Etiqueta y area de texto para que el usuario escriba un mensaje-->
+          <div class="form-group" id="margenTexto">
+            <label for=""> Mensaje: </label>
+            <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Escribe tu texto"></textarea>
+          </div>
+
+          <div class="form-group" id="margenTexto">
+          <p>
+            <!--Checkbox para que el usuario acepte recibir notificacines a su email-->
+            <input type="checkbox">Deseo recibir notificaciones de este sitio web
+          </p>
+        </div>
+        <!--Botón para enviar el formulario-->
+        <button class="btn btn-primary" id="margenTexto">Enviar</button>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">swal("Good job!", "You clicked the button!", "success");</script> 
+  
+        </section>
+
+        <section>
+
+        <!--Barra de navegación lateral-->
+        <aside id="asideFixed" class="col-md-3 hidden-xs hidden-sm hidden-md" >
+          
+          <h3 id="h3Blanco">Siguenos en nuestras redes sociales</h3>
+          
+          <div class="list-group">
+            <a href="https://www.facebook.com/SynCGMT" class="list-group-item">Facebook</a>
+            <a href="https://twitter.com/CarlosG55413511?lang=en&lang=en" class="list-group-item">Twitter</a>
+          </div>
+
+          <h3 id="h3Blanco">Conoce mas</h3>
+          <div>
+            <a href="historia.html" class="list-group-item">Historia de la guitarra</a>
+          </div>
+
+        </aside>
+</section>
+    
+    </section>
+        
+        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+
+    </body>
+</html>
